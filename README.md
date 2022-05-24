@@ -17,6 +17,9 @@ python train.py --dataroot no_use --name celebahq_LGNet --model pix2pixglg --net
 python test_and_save.py --dataroot no_use --name celebahq_LGNet --model pix2pixglg --netG1 unet_256 --netG2 resnet_4blocks --netG3 unet256 --gan_mode nogan --input_nc 4 --no_dropout --direction AtoB --gpu_ids 0
 ```
 
+## Pretrained Models
+You can download the pretrained model from [Celeba-HQ](https://drive.google.com/drive/folders/1waZDA4-ubmZXGjkd_FQIAx-gb0Hd76bI?usp=sharing). Then put them into the ./checkpoints/celebahq_LGNet/.
+
 ## Citation
 If you find this useful for your research, please use the following.
 
