@@ -1,6 +1,6 @@
 # LGNet
 
-Image Inpainting With Local and Global Refinement
+Image Inpainting With Local and Global Refinement ([Paper](https://weizequan.github.io/TIP2022/Image_Inpainting_with_Local_and_Global_Refinement-compressed.pdf))
 
 ## Prerequisites
 - Python 3
