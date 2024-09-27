@@ -21,7 +21,7 @@ python test_and_save.py --dataroot no_use --name celebahq_LGNet --model pix2pixg
 We use [Places2](http://places2.csail.mit.edu/), [CelebA-HQ](https://github.com/switchablenorms/CelebAMask-HQ), and [Paris Street-View](https://github.com/pathak22/context-encoder) datasets. [Liu et al.](https://arxiv.org/abs/1804.07723) provides 12k [irregular masks](https://nv-adlr.github.io/publication/partialconv-inpainting) as the testing mask. 
 
 ## Pretrained Models
-You can download the pretrained model from [Celeba-HQ](https://drive.google.com/drive/folders/1waZDA4-ubmZXGjkd_FQIAx-gb0Hd76bI?usp=sharing). Then put them into the ./checkpoints/celebahq_LGNet/.
+You can download the pre-trained model from [Celeba-HQ](https://drive.google.com/drive/folders/1waZDA4-ubmZXGjkd_FQIAx-gb0Hd76bI?usp=sharing), [Places2_20cat](https://drive.google.com/drive/folders/1ztXPToBmyTNaF-npkVzGInr2aM4w96ZL?usp=sharing). Note that, our pre-trained model on places 2 only uses 20 categories as our paper described. Then put them into the ./checkpoints/celebahq_LGNet/.
 
 ## Citation
 If you find this useful for your research, please use the following.
